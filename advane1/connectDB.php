@@ -1,7 +1,7 @@
 <?php
  $hostName = "localhost";
  $userName = "root";
- $passWord = "";
+ $passWord = "root123456";
  $dbName = "clothdb";
  $conn = mysqli_connect($hostName, $userName, $passWord, $dbName);
  if(mysqli_connect_error()){
